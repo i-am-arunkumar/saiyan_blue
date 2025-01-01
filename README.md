@@ -1,38 +1,24 @@
-# create-svelte
+# Saiyan blue
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+A Linux application developed with Tauri and a Rust backend, designed as a modern alternative to Blueman. The application integrates with the `bluer` system daemon to efficiently manage the host Bluetooth interface and connected devices, providing a streamlined and user-friendly experience.
 
-## Creating a project
+Techstack used
+- Tauri (https://github.com/tauri-apps/tauri)
+- Bluer (https://github.com/bluez/bluer)
+- Svelte frontend (https://github.com/sveltejs/svelte)
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Screenshots
+### Adapter interface
+![image](https://github.com/user-attachments/assets/4795f6a0-8b04-4caa-a7e8-cbf036a451c2)
+### Connected devices
+Coming soon..
+### Share via Bluetooth
+Coming soon..
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
 ```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+npm run tauri dev
 ```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
